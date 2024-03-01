@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+ 
+ 
+body {
+    background-color: rgb(96, 124, 100);
+   
+}
+ 
+header {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(251, 218, 178,0.8);
+}
+ 
+.home {
+    position: relative;
+    margin-left: 15px;
+    margin-left: 3%;
+    width: 120px;
+    height: 70px;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(251, 218, 178);
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: rgba(72, 105, 77, 0.8);
+   
+}
+ 
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: large;
+    color: rgb(251, 218, 178);
+    width: 120px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: rgba(72, 105, 77, 0.8);
+}
+ 
+.navbar {
+    display: flex;
+    margin-right: 30px;
+ 
+}
+ 
+.home:hover {
+    background-color: rgb(76, 103, 80);
+}
+ 
+.text1:hover {
+    background-color: rgb(76, 103, 80);
+}
+ 
+.culture {
+    text-align: center;
+    color: rgb(72, 105, 77);
+    margin-top: 2%;
+ 
+}
+
+img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-child {
+    width: 30%;
+}
+
+.rounded_content {
+    flex-direction: row;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.rounded_content .img_block {
+    display: inline-block;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.rounded_content img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;   
+}
+
+.rounded_content .text_block {
+    flex-grow: 2;
+    margin-left: 3%;
+}
+
+.text_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    color: rgb(251, 218, 178);
+    background-color: rgb(76, 103, 80,0.8);
+    border: 1px solid rgb(251, 218, 178);
+    border-radius: 30px;
+    padding: 1%;
+    
+}
+
+#content {
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#content .flex-child {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.img_block img{
+    border-radius: 30px;
+    transition: 1s;
+}
+
+#content .img_block:hover img {
+    transform: scale(1.05);
+}

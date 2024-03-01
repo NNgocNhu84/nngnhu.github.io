@@ -1,0 +1,35 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Snow.otf);
+  }
+
+body {
+    background-color: hsla(0, 100%, 70%, 0.3);
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-size: 75px;
+    text-align: center;
+    font-family: 'myFirstFont', Tahoma, Geneva, Verdana, sans-serif;
+    color: mistyrose;
+    margin: 15px 0px 15px 0px;
+}
+
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    backdrop-filter: blur(3px);
+    padding: 0;
+  }
+

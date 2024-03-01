@@ -1,0 +1,138 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Snow.otf);
+  }
+
+body {
+    background-color: #ffdfdf;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+}
+
+h1 {
+    font-size: 75px;
+    text-align: center;
+    font-family: 'myFirstFont', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 15px 0px 15px 0px;
+}
+.video-container{
+    background-color: white;
+    position: relative;
+    width: 80%;
+    border: 20px solid white;
+    margin-left: calc(10% - 20px); 
+    margin-right: 10%;
+    border-radius: 30px;
+}
+.video-container video {
+    width: 100%;
+    
+    height: auto;
+    border-radius: 30px;
+}
+
+#explore_vietnam{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+} 
+
+#vietnam_logo{
+    position: absolute;
+    top: 3.5%;
+    left: calc(45% + 170px);
+    z-index: 2;
+} 
+
+.background-overlay {
+    position: absolute;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    width: 80%;
+    height: 150px;
+    background-color: rgba(82, 80, 80, 0.5); 
+    z-index: 1; 
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+
+.navigation {
+    display: flex; 
+    justify-content: space-around; /
+    align-items: center;
+    width: 80%;
+    margin-top: 3%;
+    margin-left: 10%; 
+    margin-right: 10%;
+} 
+
+.upper-links,
+.lower-links {
+    display: inline-block; 
+    margin-top: 5%;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(251, 178, 190); 
+    color: white; 
+    text-decoration: none;
+    border: 4px white dashed;
+    border-radius: 10px; 
+    margin: 50px; 
+    margin-bottom: 100px;
+    transition: background-color 0.3s ease; 
+    font-size: 20px;
+    width: 140px;
+    height: 70px;
+    
+}
+.nav-link:hover {
+    background-color: rgb(250, 141, 159); 
+}
+
+#vietnammap {
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: rgba(244, 142, 142, 0.2);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.symbol{
+    font-size: 17px;
+    color: rgb(233, 255, 255);
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+
+.end_text {
+    color: rgb(233, 255, 255);
+    font-size: 17px;
+}
+
+.ende_seite {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
